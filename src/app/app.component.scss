@@ -1,0 +1,15 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container > * {
+  width: 100%;
+}
+
+mat-form-field.mat-form-field {
+  font-size: 16px;
+  color: blue;
+  background-color: burlywood;
+  border: solid 1px #c0c0ff;
+}
